@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img {
+    
+    background-image: url("../../../images/banner.jpg");
+    
+
+    min-height: 500px;
+  
+    /* Centrer l'image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* positionner la navr */
+    position: relative;
+
+    display: flex;
+    border: red solid 3px;
+    justify-content: space-between;
+  }
+
+ .spatial1{
+
+    border: solid 3px blue;
+    height: max-content;
+    width: 50%;
+    color: white;
+
+ } 
+  .HGE{
+      display: flex;
+      justify-content: space-around;
+      border: red 3px solid;
+      width: 25%;
+      height: max-content;
+      margin-right: 50px;
+      color: white;
+
+  }
+  
+  .container1{
+      border: green solid 3px;
+      height: 100%;
+      margin-top: 15%;
+      margin-right: 15%;
+      color: white;
+      
+  }
+
+  .spatial2{
+      justify-content: center;
+      display: flex;
+  }
+
+  .firstp{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+
+     p{
+         text-align: center;
+     }
+  }
+
+  .pinkbutton{
+      display: flex;
+      justify-content: center;
+      border: red 3px solid;
+
+
+  }
