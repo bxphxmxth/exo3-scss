@@ -28,3 +28,30 @@ margin-top: 5%;
     padding: 0;
     color: grey;
 }
+
+//  deux text col
+
+.deuxtxt1{
+
+width:80%;
+text-align: end;
+margin-top: 50px;
+display: flex;
+justify-content: space-between;
+margin-right: px;
+margin-left: 50px;
+
+
+}
+
+.loremipsum>p:first-child{
+font-size: 20px;}
+
+.recusan{
+    text-align: start;
+}
+
+.radius{
+    border-radius: 100px;
+    border: rgba(160, 179, 207, 0.685) 8px solid;
+}
