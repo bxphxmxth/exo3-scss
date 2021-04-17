@@ -17,6 +17,14 @@ body {
   justify-content: space-between;
 }
 
+.spatialandhome {
+  display: flex;
+  justify-content: space-between;
+  border: green solid 3px;
+  width: 100%;
+  height: max-content;
+}
+
 .spatial1 {
   border: solid 3px blue;
   height: max-content;
@@ -28,9 +36,9 @@ body {
   display: flex;
   justify-content: space-around;
   border: red 3px solid;
-  width: 25%;
+  width: 100%;
   height: max-content;
-  margin-right: 50px;
+  margin-left: 500px;
   color: white;
 }
 
@@ -62,13 +70,32 @@ body {
   border: red 3px solid;
 }
 
+footer {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+}
+
+.txtfooter {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin-left: 35%;
+  color: grey;
+}
+
 .container2 {
   height: 400px;
   position: relative;
 }
 
 .maecenas {
-  border: crimson solid 3px;
   width: 25%;
   height: 400px;
   margin-left: 15%;
@@ -85,7 +112,6 @@ body {
 }
 
 .txt {
-  border: darkgreen solid 3px;
   width: 30%;
   height: 400px;
   margin-left: 50%;
@@ -105,7 +131,6 @@ body {
 
 .fusce {
   position: absolute;
-  border: red solid 3px;
   width: 100%;
   height: 200px;
   text-align: center;
@@ -122,7 +147,6 @@ body {
 }
 
 .container4 {
-  border: green 3px solid;
   position: absolute;
   width: 40%;
   margin-top: 250px;
@@ -140,7 +164,6 @@ body {
 }
 
 .pinkblackbutton {
-  border: springgreen solid 3px;
   display: flex;
   margin-top: 100px;
   margin-left: 35%;
@@ -167,13 +190,11 @@ body {
 }
 
 .container5 {
-  background-color: salmon;
   width: 100%;
   height: 100px;
 }
 
 .txtcont5 {
-  border: green solid 3px;
   width: 60%;
   margin-left: 10%;
   margin-top: 5%;
@@ -212,6 +233,48 @@ body {
 .radius {
   border-radius: 100px;
   border: rgba(160, 179, 207, 0.685) 8px solid;
+}
+
+.container6 {
+  background-color: green;
+  width: 100%;
+  height: 300px;
+  margin-top: 40%;
+}
+
+.bg-img2 {
+  background-image: url("../../../images/banner.jpg");
+  min-height: 350px;
+  /* Centrer l'image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* positionner la navr */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.txtaen {
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.txtwhite {
+  color: white;
+  font-size: 30px;
+}
+
+.txtgrey {
+  color: grey;
+  font-size: 20px;
+}
+
+.txtwhite2 {
+  color: white;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=app.css.map */
